@@ -5,10 +5,23 @@ version = "0.1.0"
 description = "Amazon E-commerce MCP Server"
 readme = "README.md"
 requires-python = ">=3.13"
+
 dependencies = [
-    "fastmcp"
+    "fastmcp",
+    "langgraph",
+    "langchain",
+    "langchain-openai",
+    "mcp",
+    "langchain-community",
+    "langchain-mcp-adapters",
+    "python-dotenv",
+    "ddgs",
+    "duckduckgo-search",
+    "pypdf",
+    "langchain-chroma"
 ]
 
 [build-system]
 requires = ["uv_build>=0.13.7,<0.14.0"]
 build-backend = "uv_build"
+
