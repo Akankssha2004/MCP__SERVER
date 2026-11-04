@@ -1,2 +1,12 @@
-
+langgraph
+langchain
+langchain_openai
+mcp
+langchain_community
+langchain-mcp-adapters
 fastmcp
+python-dotenv
+ddgs
+duckduckgo-search
+pypdf
+langchain-chroma
